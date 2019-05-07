@@ -23,6 +23,8 @@ Estrutura do observatório do **IAG** (duas tabelas separadas, uma com os valore
       <td>26.4</td>
     </tr>
 
+e
+
 <table>
   <thead>
     <th>DATA</th>

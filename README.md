@@ -15,6 +15,17 @@ Estrutura do observatório do **IAG** (duas tabelas separadas, uma com os valore
 <table>
   <thead>
     <th>DATA</th>
+    <th>min(tmin)</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1961-01-01 14:00:00</td>
+      <td>19</td>
+    </tr>
+
+<table>
+  <thead>
+    <th>DATA</th>
     <th>max(tmax)</th>
   </thead>
   <tbody>
@@ -23,18 +34,6 @@ Estrutura do observatório do **IAG** (duas tabelas separadas, uma com os valore
       <td>26.4</td>
     </tr>
 
-e
-
-<table>
-  <thead>
-    <th>DATA</th>
-    <th>min(tmin)</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1961-01-01 14:00:00</td>
-      <td>19</td>
-    </tr>
 
 Estrutura do observatório de **Mirante de Santana** (os valores de Precipitação e Hora não são utilizados):
 

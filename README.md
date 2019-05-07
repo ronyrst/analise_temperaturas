@@ -15,7 +15,7 @@ As tabelas de entrada para o código possuem as seguintes configurações:
 
 Com elas, é possível fazer a análise das temperaturas através da criação de matrizes.
 
-O exemplo abaixo se refere à saída do programa para os dados do observatório do IAG entre 1961 e 2015 (em formato .csv):
+O exemplo abaixo se refere à saída do programa para os dados do observatório do IAG entre 1961 e 2015 (em formato *.csv*):
 
 <img src="Imagens/5.exemplo.jpg">
 

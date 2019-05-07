@@ -10,8 +10,17 @@ Isto foi feito utilizando a metodologia criada por Estévez et al. (2012), basea
 
 As tabelas de entrada para o código possuem as seguintes configurações:
 
-<<<< >>>>>
-<<<< >>>>>
+Estrutura do observatório do **IAG** (duas tabelas separadas, uma com os valores de temperaturas máximas, outra com as temperaturas mínimas):
+| DATA                | max(tmax) |       | DATA                | min(tmin) |
+|---------------------|-----------|       |---------------------|-----------|
+| 1961-01-01 14:00:00 | 26.4      |       | 1961-01-01 14:00:00 | 19        |
+
+Estrutura do observatório de **Mirante de Santana** (os valores de Precipitação e Hora não são utilizados):
+| Estacao | Data       | Hora | Precipitacao | TempMaxima | TempMinima |
+|---------|------------|------|--------------|------------|------------|
+| 83781   | 01/01/1961 | 0000 |              | 24.9       |            |
+| 83781   | 01/01/1961 | 1200 | 0            |            | 18.5       |
+| 83781   | 02/01/1961 | 0000 |              | 22.7       |            |
 
 Com elas, é possível fazer a análise das temperaturas através da criação de matrizes.
 

@@ -8,9 +8,23 @@ Isto foi feito utilizando a metodologia criada por Estévez et al. (2012), basea
 
 <img src="Imagens/1.tabelaprojeto.jpg" height=260>
 
-As tabelas de entrada para o código possuem as seguintes configurações:
+As tabelas de entrada podem ser de dois tipos.
 
-Estrutura do observatório do **IAG** (com uma tabela para as temperaturas mínimas e outra para as temperaturas máximas):
+1. Estrutura do observatório do **IAG** (com uma tabela para as temperaturas máximas e outra para as mínimas):
+
+<table>
+  <thead>
+    <th>DATA</th>
+    <th>max(tmax)</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1961-01-01 14:00:00</td>
+      <td>26.4</td>
+    </tr>
+  </tbody>
+</table>
+
 
 <table>
   <thead>
@@ -25,20 +39,8 @@ Estrutura do observatório do **IAG** (com uma tabela para as temperaturas míni
   </tbody>
 </table>
 
-<table>
-  <thead>
-    <th>DATA</th>
-    <th>max(tmax)</th>
-  </thead>
-  <tbody>
-    <tr>
-      <td>1961-01-01 14:00:00</td>
-      <td>26.4</td>
-    </tr>
-  </tbody>
-</table>
-    
-Estrutura do observatório de **Mirante de Santana** (os valores de Precipitação e Hora não são utilizados):
+
+2. Estrutura do observatório de **Mirante de Santana** (os valores de Precipitação e Hora não são utilizados):
 
 | Estacao | Data       | Hora | Precipitacao | TempMaxima | TempMinima |
 |---------|------------|------|--------------|------------|------------|
@@ -46,16 +48,14 @@ Estrutura do observatório de **Mirante de Santana** (os valores de Precipitaç�
 | 83781   | 01/01/1961 | 1200 | 0            |            | 18.5       |
 | 83781   | 02/01/1961 | 0000 |              | 22.7       |            |
 
-Com elas, é possível fazer a análise das temperaturas através da criação de matrizes.
 
-O exemplo abaixo se refere à saída do programa para os dados do observatório do IAG entre 1961 e 2015 (em formato *.csv*):
+Com elas, é possível fazer a análise das temperaturas através da criação de matrizes. Como no exemplo abaixo, referente à saída do programa para os dados do observatório do IAG entre 1961 e 2015 (em formato *.csv*):
 
 <img src="Imagens/5.exemplo.jpg">
 
-Com um breve tratamento no arquivo, temos o exemplo abaixo para apresentação da tabela de saída.
-O código permite fazer diversas alterações nas matrizes de saída. Separação anual, a cada 5 anos, 10 anos e 30. E com a possibilidade de adicionar as quatro estações (verão, outono, inverno, primavera) a cada período de tempo.
+O código permite fazer diversas alterações nas matrizes de saída: separação anual, a cada 5 anos, 10 anos e 30. E com a possibilidade de adicionar as quatro estações (verão, outono, inverno, primavera) para cada período de tempo.
 
-Neste caso específico, apresento os valores para os verões entre 1961 e 1965 e para os verões entre 2011 e 2015 (é perceptível o aumento de dias quentes entre os dois períodos):
+Neste caso específico, apresento os valores para os verões entre 1961 e 1965 e para os verões entre 2011 e 2015 (o arquivo recebeu um breve tratamento). É perceptível o aumento de dias quentes entre os dois períodos):
 
 <img src="Imagens/6.tabela5.jpg">
 

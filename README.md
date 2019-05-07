@@ -40,7 +40,7 @@ As tabelas de entrada podem ser de dois tipos.
 </table>
 
 
-2. Estrutura do observatório de **Mirante de Santana** (os valores de Precipitação e Hora não são utilizados):
+2. Estrutura do observatório de **Mirante de Santana** (os valores de *Precipitação* e *Hora* não são utilizados):
 
 | Estacao | Data       | Hora | Precipitacao | TempMaxima | TempMinima |
 |---------|------------|------|--------------|------------|------------|
@@ -53,13 +53,13 @@ Com elas, é possível fazer a análise das temperaturas através da criação d
 
 <img src="Imagens/5.exemplo.jpg">
 
-O código permite fazer diversas alterações nas matrizes de saída: separação anual, a cada 5 anos, 10 anos e 30. E com a possibilidade de adicionar as quatro estações (verão, outono, inverno, primavera) para cada período de tempo.
+O código permite fazer diversas alterações nas matrizes de saída: separação anual, a cada 5 anos, 10 anos e 30. E também a possibilidade de adicionar as quatro estações (verão, outono, inverno, primavera) para cada período de tempo.
 
 Neste caso específico, apresento os valores para os verões entre 1961 e 1965 e para os verões entre 2011 e 2015 (o arquivo recebeu um breve tratamento). É perceptível o aumento de dias quentes entre os dois períodos):
 
 <img src="Imagens/6.tabela5.jpg">
 
-Também é possível apresentar os dados de forma gráfica. O *Gráfico 2* apresenta outro observatório de São Paulo.
+Também é possível apresentar as matrizes de forma gráfica. O *Gráfico 2* apresenta outro observatório de São Paulo.
 
 <img src="Imagens/8.grafico1.jpg">
 <img src="Imagens/9.grafico2.jpg">

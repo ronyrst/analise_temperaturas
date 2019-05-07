@@ -1,5 +1,5 @@
 # Análise de temperaturas máximas e mínimas
-aplicado à cidade de São Paulo no período de 1961 a 2015.
+aplicado à cidade de São Paulo no período entre 1961 e 2015.
 
 O código aqui presente fez parte do projeto de Cultura e Extensão realizado na Universidade de São Paulo junto à professora Rita Ynoue (do Instituto de Astronomia, Geofísica e Ciências Atmosféricas - IAG USP) entre os anos de 2016 e 2017.
 
